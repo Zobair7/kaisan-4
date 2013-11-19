@@ -1,0 +1,160 @@
+/** 
+ * Description: Core theme for Kaisan
+ */
+
+/**
+ * Structure
+ */
+/** 
+ * My own style, based on HTML5Boilerplate standard style.
+ */
+@import url(../css/style.css);
+@import url(http://fonts.googleapis.com/css?family=Shojumaru);
+
+
+/**
+ * Structure
+ */
+html 
+{
+  overflow-y:scroll;
+}
+
+body 
+{
+  background-color:#CCCCCC;
+  color:#333;
+}
+
+td, th, body 
+{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #333333;
+}
+
+#header,
+#main,
+#footer 
+{
+  margin:8px auto;
+  padding:1em;
+  background-color:#fff;
+  border:1px solid #999;
+  border-radius: 10px;
+} 
+
+#header
+{
+  width:750px;
+}
+
+#main,
+#footer 
+{
+  width:700px;
+}
+
+#main 
+{
+  min-height:20em;
+}
+
+#footer 
+{
+  font-size:0.9em;
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+
+/**
+ * Fonts
+ */
+h1
+{ 
+  font-family: 'Shojumaru', cursive;
+  line-height:0;
+  font-size:2.5em;
+  padding-left:20px;
+  color:#333;
+  text-shadow:#ccc 4px -4px 4px;
+}
+
+h2,h3
+{
+  border-bottom:1px solid #dddddd;
+  color: #800000;
+} 
+
+
+/**
+ * Links
+ */
+a,
+a:visited 
+{
+  color:#A84C00;
+}
+
+
+/**
+ * Figure and images
+ */
+figure 
+{
+  display: table;
+  width:1px;
+  border: 2px solid #eee;
+  margin:1em;
+  padding:2px;
+}
+
+figcaption 
+{
+  border: 2px solid #eee;  
+  display: table-row;
+  vertical-align: bottom;
+}
+
+a figcaption,
+figcaption 
+{
+  font-style:italic;
+  font-size:smaller;
+  color:#666;
+}
+
+figure.right{margin-right:0;}
+figure.top{margin-top:0;}
+figure.fullwidth{margin-left:0;margin-right:0;}
+
+a:hover figure 
+{
+  background-color:#eee;
+  border:2px solid #999;
+}
+
+
+/**
+ * byline & signature
+ */
+.byline 
+{
+  clear: both;
+  border-top: 1px dashed #999;
+  margin-top:2em;
+  padding: 1em;
+  color: #666;
+  font-size: smaller;
+  font-style:italic;
+}
+.byline img {padding:2px; outline:#999;}
+
+
+/**
+ * Misc classes
+ */
+.right {float:right;} 
+*/
